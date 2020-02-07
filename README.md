@@ -1,4 +1,4 @@
-# vue2.0-preset
+# vue-preset
 
 ## Run with
 
