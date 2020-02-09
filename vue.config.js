@@ -17,7 +17,7 @@ module.exports = {
 
 		config.when(process.env.NODE_ENV === "production", config => {
 			config.plugin("html").tap(args => {
-				args[0].isDev = fasle;
+				args[0].isDev = false;
 				return args;
 			});
 		});
